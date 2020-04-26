@@ -1,0 +1,99 @@
+* { 
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("fonts/Inter-Bold.woff2") format('woff2'),
+    url("fonts/Inter-Bold.woff") format('woff');
+    font-weight: 700;
+    font-smoothing: antialiased;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("fonts/Inter-Medium.woff2") format('woff2'),
+    url("fonts/Inter-Medium.woff") format('woff');
+    font-weight: 500;
+    font-smoothing: antialiased;
+}
+
+body {
+
+	font-family: Inter, sans-serif;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+
+h2 { 
+	font-size: 60px;
+}
+
+#wrapper {
+
+		width: 100vw;
+		min-height: 100vh;
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-top: 120px;
+}
+
+
+.content{
+	max-width: 500px;
+	min-height: 270px;
+}
+
+.content a{
+	color: #000;
+}
+
+.content a:hover{
+	text-decoration: none;
+}
+
+.links {
+	max-width: 400px;
+	font-family: Inter, sans-serif;
+	font-weight: 500;
+	font-size: 27px;
+
+	line-height: 1.3;
+}
+
+.links a{
+	color: #000;
+
+}
+
+.links a:hover {
+	text-decoration: none;
+}
+
+@media (max-width: 720px) {
+
+	h2 {
+		font-size: 36px;
+	}
+	#wrapper {
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 60px;
+	}
+
+	.content{
+		max-width: 380px;
+		min-height: 200px;
+	}
+
+	.links {
+		font-size: 20px;
+		max-width: 300px;
+	}
+}
+
+
+
+
+
