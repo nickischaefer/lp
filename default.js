@@ -6,7 +6,6 @@ const texte = [
 	"I’m a Strategic Designer.",
 	"I’m a Design Lead at <a href=https://ideo.com target=_blank>IDEO</a>.",
 	"I’m a Prototyping Enthusiast.",
-	"I’m happy to talk to you.",
 	"I’m a Maker.",
 	"I’m a Mini Bike Rider.",
 
