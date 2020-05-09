@@ -1,25 +1,24 @@
 
 
- function UnCryptMailto( s )
-    {
-        var n = 0;
-        var r = "";
-        for( var i = 0; i < s.length; i++)
-        {
-            n = s.charCodeAt( i );
-            if( n >= 8364 )
-            {
-                n = 128;
-            }
-            r += String.fromCharCode( n - 1 );
-        }
-        return r;
+function UnCryptMailto( s )
+{
+  var n = 0;
+  var r = "";
+  for( var i = 0; i < s.length; i++)
+  {
+    n = s.charCodeAt( i );
+    if( n >= 8364 ){
+        n = 128;
     }
+    r += String.fromCharCode( n - 1 );
+  }
+  return r;
+}
 
-    function linkTo_UnCryptMailto( s )
-    {
-        location.href=UnCryptMailto( s );
-    }
+function linkTo_UnCryptMailto( s )
+{
+    location.href=UnCryptMailto( s );
+}
 
 
 const texte = [
@@ -29,11 +28,12 @@ const texte = [
 	"I’m a Prototyping Enthusiast.",
 	"I’m a Maker.",
 	"I’m a Mini Bike Rider.",
-
 ];
+
 let prevCounter = 0;
 const delay = 3000;
 let timerInterval = null;
+
 function documentInit(){
 	const container = document.querySelector('#myText');
 	// function to set next text
@@ -64,6 +64,7 @@ function documentInit(){
 	// start interval once initially
 	timerInterval = setInterval(next, delay);
 }
+
 document.addEventListener("DOMContentLoaded", function() {
 	documentInit();
 });
