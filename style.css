@@ -39,7 +39,7 @@ h2 {
 
 #wrapper {
 	width: 100vw;
-	min-height: 100vh;
+	height: 100vh;
 	padding-left: 100px;
 	padding-right: 100px;
 	padding-top: 120px;
