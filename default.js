@@ -24,10 +24,9 @@ function linkTo_UnCryptMailto( s )
 const texte = [
 	"I’m a Product Designer.",
 	"I’m a Strategic Designer.",
-	"I’m a Design Lead at <a href=https://ideo.com target=_blank>IDEO</a>.",
-	"I’m a Prototyping Enthusiast.",
+	"I’m a Design Lead at <a href='https://ideo.com' target='_blank'>IDEO</a>.",
+	"I’m a <a href='https://www.ideo.com/blog/what-cooking-dinner-for-friends-taught-me-about-prototyping' target='_blank'>Prototyping Enthusiast</a>.",
 	"I’m a Maker.",
-	"I’m a Mini Bike Rider.",
 ];
 
 let prevCounter = 0;
